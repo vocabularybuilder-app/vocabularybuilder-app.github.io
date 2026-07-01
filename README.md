@@ -1,5 +1,3 @@
-# vocabularybuilder-app.github.io
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -437,7 +435,6 @@ We do not collect, transmit, or share any personal data.
 
 
 
-
 <div class="section">
 
 
@@ -459,8 +456,6 @@ are stored only for app functionality.
 
 
 </div>
-
-
 
 
 
@@ -490,8 +485,6 @@ All data remains on your device and is available offline.
 
 
 
-
-
 <div class="section">
 
 
@@ -513,8 +506,6 @@ The app has no analytics, tracking, advertising, Firebase, or server connection.
 
 
 </div>
-
-
 
 
 
@@ -547,7 +538,6 @@ app data from Settings.
 
 
 </div>
-
 
 
 
