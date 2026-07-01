@@ -1,1 +1,590 @@
 # vocabularybuilder-app.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Privacy Policy | Vocabulary Builder</title>
+
+<style>
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Inter", "Segoe UI", Arial, sans-serif;
+}
+
+
+body {
+
+    min-height:100vh;
+
+    background:
+        radial-gradient(circle at top left, #312e81, transparent 35%),
+        radial-gradient(circle at bottom right, #1d4ed8, transparent 35%),
+        #020617;
+
+    color:#f8fafc;
+}
+
+
+
+header {
+
+    padding:80px 20px 60px;
+    text-align:center;
+
+}
+
+
+.logo {
+
+    width:90px;
+    height:90px;
+
+    margin:0 auto 25px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:45px;
+
+    border-radius:28px;
+
+    background:
+        linear-gradient(135deg,#6366f1,#2563eb);
+
+    box-shadow:
+        0 20px 50px rgba(37,99,235,.4);
+
+}
+
+
+
+header h1 {
+
+    font-size:46px;
+    font-weight:800;
+
+    background:
+        linear-gradient(90deg,#fff,#93c5fd);
+
+    -webkit-background-clip:text;
+    color:transparent;
+
+    margin-bottom:15px;
+
+}
+
+
+
+header p {
+
+    color:#cbd5e1;
+    font-size:19px;
+
+}
+
+
+
+.badges {
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+
+    margin-top:35px;
+
+}
+
+
+
+.badge {
+
+    padding:12px 20px;
+
+    border-radius:50px;
+
+    background:
+        rgba(255,255,255,.08);
+
+    border:
+        1px solid rgba(255,255,255,.12);
+
+    backdrop-filter:blur(15px);
+
+    color:#e2e8f0;
+
+}
+
+
+
+.container {
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:20px;
+
+}
+
+
+
+.card {
+
+    background:
+
+        rgba(15,23,42,.75);
+
+    border:
+
+        1px solid rgba(255,255,255,.1);
+
+    backdrop-filter:
+
+        blur(20px);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    box-shadow:
+
+        0 30px 80px rgba(0,0,0,.45);
+
+    animation:
+
+        appear .8s ease;
+
+}
+
+
+
+
+.updated {
+
+    padding:16px;
+
+    border-radius:14px;
+
+    background:
+
+        rgba(99,102,241,.15);
+
+    border:
+
+        1px solid rgba(99,102,241,.3);
+
+    color:#c7d2fe;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+.section {
+
+    border-bottom:
+
+        1px solid rgba(255,255,255,.1);
+
+    padding:22px 0;
+
+}
+
+
+
+.section:last-child {
+
+    border:none;
+
+}
+
+
+
+.title {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+
+
+.icon {
+
+    width:32px;
+    height:32px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:
+
+        rgba(255,255,255,.1);
+
+    transition:.3s;
+
+}
+
+
+
+.content {
+
+    max-height:0;
+
+    overflow:hidden;
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+
+    transition:.4s ease;
+
+}
+
+
+
+.section.active .content {
+
+    max-height:200px;
+
+    margin-top:15px;
+
+}
+
+
+
+.section.active .icon {
+
+    transform:rotate(45deg);
+
+    background:#2563eb;
+
+}
+
+
+
+
+footer {
+
+    text-align:center;
+
+    color:#94a3b8;
+
+    padding:35px;
+
+}
+
+
+
+@keyframes appear {
+
+    from {
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to {
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+    header h1 {
+
+        font-size:34px;
+
+    }
+
+
+    .card {
+
+        padding:25px;
+
+        border-radius:22px;
+
+    }
+
+
+    .title {
+
+        font-size:19px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+<div class="logo">
+📚
+</div>
+
+
+<h1>
+Privacy Policy
+</h1>
+
+
+<p>
+Vocabulary Builder keeps your learning private, secure, and offline.
+</p>
+
+
+
+<div class="badges">
+
+<div class="badge">
+🔒 No Tracking
+</div>
+
+<div class="badge">
+📱 Offline Storage
+</div>
+
+<div class="badge">
+🚫 No Ads
+</div>
+
+<div class="badge">
+🛡️ Privacy First
+</div>
+
+</div>
+
+
+</header>
+
+
+
+
+<div class="container">
+
+
+<div class="card">
+
+
+<div class="updated">
+Last updated: 1 Jul 2026
+</div>
+
+
+
+<div class="section active">
+
+
+<div class="title">
+
+Overview
+
+<span class="icon">+</span>
+
+</div>
+
+
+<div class="content">
+
+Vocabulary Builder stores your quiz progress and mistakes locally on your device.
+We do not collect, transmit, or share any personal data.
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="section">
+
+
+<div class="title">
+
+Data We Store
+
+<span class="icon">+</span>
+
+</div>
+
+
+<div class="content">
+
+Your vocabulary list, mistake status, quiz results, points, and completed rounds
+are stored only for app functionality.
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="section">
+
+
+<div class="title">
+
+How Data Is Used
+
+<span class="icon">+</span>
+
+</div>
+
+
+<div class="content">
+
+Data is used to run quizzes, show mistakes, and enable focused practice sessions.
+All data remains on your device and is available offline.
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="section">
+
+
+<div class="title">
+
+Data Sharing
+
+<span class="icon">+</span>
+
+</div>
+
+
+<div class="content">
+
+We do not share, sell, or transmit your data to third parties.
+The app has no analytics, tracking, advertising, Firebase, or server connection.
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="section">
+
+
+<div class="title">
+
+Data Control
+
+<span class="icon">+</span>
+
+</div>
+
+
+<div class="content">
+
+You can remove individual mistakes in the Mistakes section or delete all saved
+app data from Settings.
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<footer>
+
+© 2026 Vocabulary Builder · Privacy First
+
+</footer>
+
+
+
+
+<script>
+
+
+const sections=document.querySelectorAll(".section");
+
+
+sections.forEach(section=>{
+
+
+section.querySelector(".title").onclick=()=>{
+
+
+section.classList.toggle("active");
+
+
+};
+
+
+});
+
+
+</script>
+
+
+
+</body>
+</html>
