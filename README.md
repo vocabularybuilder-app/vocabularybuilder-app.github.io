@@ -121,6 +121,120 @@ header p {
 
 
 
+.support-box {
+
+    max-width:900px;
+
+    margin:30px auto;
+
+    padding:0 20px;
+
+}
+
+
+
+.support-container {
+
+    background:
+        linear-gradient(135deg, rgba(37,99,235,.2), rgba(99,102,241,.2));
+
+    border:
+        2px solid rgba(37,99,235,.4);
+
+    border-radius:20px;
+
+    padding:25px 30px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    box-shadow:
+        0 20px 40px rgba(37,99,235,.15);
+
+}
+
+
+
+.support-icon {
+
+    font-size:32px;
+
+    flex-shrink:0;
+
+}
+
+
+
+.support-content h3 {
+
+    color:#93c5fd;
+
+    font-size:18px;
+
+    margin-bottom:8px;
+
+    font-weight:700;
+
+}
+
+
+
+.support-content p {
+
+    color:#cbd5e1;
+
+    font-size:14px;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.support-email {
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:
+        rgba(255,255,255,.12);
+
+    padding:10px 16px;
+
+    border-radius:10px;
+
+    color:#e2e8f0;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:all .3s ease;
+
+    border:1px solid rgba(255,255,255,.2);
+
+}
+
+
+
+.support-email:hover {
+
+    background:
+        rgba(37,99,235,.3);
+
+    border-color:rgba(37,99,235,.5);
+
+    color:#fff;
+
+}
+
+
 .container {
 
     max-width:900px;
@@ -343,6 +457,15 @@ footer {
 
     }
 
+    
+    .support-container {
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
 }
 
 </style>
@@ -396,6 +519,29 @@ Vocabulary Builder keeps your learning private, secure, and offline.
 </header>
 
 
+
+
+<div class="support-box">
+
+<div class="support-container">
+
+<div class="support-icon">📧</div>
+
+<div class="support-content">
+
+<h3>Need Help?</h3>
+
+<p>Have questions or need support? Contact us directly:</p>
+
+<a href="mailto:wolfappdevelopmentnow@gmail.com" class="support-email">
+✉️ wolfappdevelopmentnow@gmail.com
+</a>
+
+</div>
+
+</div>
+
+</div>
 
 
 <div class="container">
