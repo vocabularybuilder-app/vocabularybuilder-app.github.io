@@ -485,7 +485,7 @@ footer {
 
 
 <h1>
-Privacy Policy
+Vocabulary Builder English UK | Privacy Policy
 </h1>
 
 
