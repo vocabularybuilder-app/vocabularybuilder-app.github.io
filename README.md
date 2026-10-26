@@ -570,7 +570,7 @@ Overview
 
 <div class="content">
 
-Vocabulary Builder stores your quiz progress and mistakes locally on your device.
+Vocabulary Builder English UK stores your quiz progress and mistakes locally on your device.
 We do not collect, transmit, or share any personal data.
 
 </div>
@@ -690,7 +690,7 @@ app data from Settings.
 
 <footer>
 
-© 2026 Vocabulary Builder · Privacy First
+© 2026 Vocabulary Builder English UK · Privacy First
 
 </footer>
 
