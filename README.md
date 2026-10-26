@@ -498,7 +498,7 @@ Vocabulary Builder keeps your learning private, secure, and offline.
 <div class="badges">
 
 <div class="badge">
-🔒 No Tracking
+🔒 No Tracking, No 3rd Party services and analytics.
 </div>
 
 <div class="badge">
