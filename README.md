@@ -596,7 +596,7 @@ Data We Store
 <div class="content">
 
 Your vocabulary list, mistake status, quiz results, points, and completed rounds
-are stored only for app functionality.
+are stored only for app functionality. This data is saved on the users device localy.
 
 </div>
 
