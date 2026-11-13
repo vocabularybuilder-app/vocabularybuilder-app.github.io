@@ -551,7 +551,7 @@ Vocabulary Builder keeps your learning private, secure, and offline.
 
 
 <div class="updated">
-Last updated: 1 Jul 2026
+Last updated: 13th November 2026
 </div>
 
 
